@@ -17,5 +17,11 @@ public class Stack<T> {
     }
     public boolean isEmpty() {
 	return pointer <= 0;
-    } 
+    }
+
+    public T peek() {
+        if(pointer <= 0)
+	    throw new IllegalArgumentException("Stack empty");
+	return objects[pointer-1];
+    }
 }
