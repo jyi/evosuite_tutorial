@@ -1,3 +1,7 @@
 .evosuite
 .scaffolding_list.tmp
 target
+.idea
+/Tutorial_Maven.iml
+/src/test/evosuite/
+/evosuite-report/
